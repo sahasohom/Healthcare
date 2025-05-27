@@ -1,0 +1,5 @@
+.appointment-card {
+    background-color: var(--primary-color);
+    height: 100%;
+    padding: 2rem 1rem;
+}

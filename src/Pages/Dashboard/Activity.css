@@ -1,0 +1,23 @@
+.activity {
+    background-color: var(--primary-color);
+    margin-top: 2rem;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.activity-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.activity-header h3 {
+    font-size: 1.5rem;
+    color: var(--darkblue);
+}
+
+.activity-header h6 {
+    font-size: 0.8rem;
+    color: var(--grey);
+}

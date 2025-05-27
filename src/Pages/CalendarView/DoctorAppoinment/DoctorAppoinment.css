@@ -1,0 +1,62 @@
+.doctor-appoinment {
+    margin-top: 1rem;
+}
+
+.doctor-appointment-cards {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+}
+
+.doctor-appoinment-card {
+    padding: 1rem;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+.selected-card {
+    background-color: var(--blue);
+    color: #ffffff;
+}
+
+.non-selected-card {
+    background-color: var(--secondary-color);
+    color: #000000;
+}
+
+.heading-appointment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 1rem;
+}
+
+.heading-appointment img {
+    width: 20px
+}
+
+.heading-appointment h3 {
+    /* color: #ffffff; */
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.doctor-appoinment h5,
+.doctor-appoinment p {
+    font-size: 14px;
+    margin-bottom: 0.2rem;
+}
+
+.upcoming {
+    margin-top: 1.2rem;
+    font-size: 22px;
+    color: var(--darkblue);
+    font-weight: 600;
+}
+
+.heading-date {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 15px !important;
+}

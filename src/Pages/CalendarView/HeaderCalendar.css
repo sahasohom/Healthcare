@@ -1,0 +1,28 @@
+.header-calendar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.account,
+.plus {
+    border-radius: 10px;
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.account {
+    background-color: skyblue;
+}
+
+.plus {
+    background-color: var(--blue);
+}
+
+.account img {
+    width: 25px;
+}
