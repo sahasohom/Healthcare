@@ -13,10 +13,9 @@ import {
 import "./Sidebar.css";
 
 interface SidebarProps {
-  mobileMenu: boolean;
   setMobileMenu: React.Dispatch<React.SetStateAction<boolean>>;
 }
-const Sidebar: React.FC<SidebarProps> = ({ mobileMenu, setMobileMenu }) => {
+const Sidebar: React.FC<SidebarProps> = ({ setMobileMenu }) => {
   const sidebarData = [
     {
       heading: "General",

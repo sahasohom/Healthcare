@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div className="app">
       <div className={`sidebar ${mobileMenu ? "show-mobile" : "hide-menu"}`}>
-        <Sidebar setMobileMenu={setMobileMenu} mobileMenu={mobileMenu} />
+        <Sidebar setMobileMenu={setMobileMenu} />
       </div>
       <div className="content">
         <img

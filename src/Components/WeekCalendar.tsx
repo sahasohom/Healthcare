@@ -4,9 +4,12 @@ import dayGridPlugin from "@fullcalendar/daygrid";
 import timeGridPlugin from "@fullcalendar/timegrid";
 import interactionPlugin from "@fullcalendar/interaction";
 import "./WeekCalendar.css";
+import type { EventInput } from "fullcalendar/index.js";
 
 const WeekCalendar: React.FC = () => {
-  const [events, setEvents] = useState([]);
+  // const [events, setEvents] = useState([]);
+  const [events, setEvents] = useState<EventInput[]>([]);
+
 
   const generateTimeEvents = (start: Date, end: Date) => {
     const evts = [];
